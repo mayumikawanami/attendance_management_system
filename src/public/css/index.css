@@ -1,0 +1,23 @@
+.stamp-form__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+        /* 水平方向の中央寄せ */
+    align-items: center;
+        /* 垂直方向の中央寄せ */
+    margin: 60px 0 90px;
+        /* 上下のマージンを指定 */
+    }
+
+
+.stamp-form__container button {
+    width: 40%;
+    box-sizing: border-box;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    line-height: 200px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: white;
+}
